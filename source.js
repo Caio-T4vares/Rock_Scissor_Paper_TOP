@@ -49,9 +49,8 @@ function game() {
       computerWins++;
     }
   }
-  if (playerWins > computerWins)
-    console.log("Congratulations, you are the winner!");
-  else if (playerWins < computerWins) console.log("OH NO! You lost the game!");
-  else console.log("Draw!!");
+  if (playerWins > computerWins) alert("Congratulations, you are the winner!");
+  else if (playerWins < computerWins) alert("OH NO! You lost the game!");
+  else alert("Draw!!");
 }
 game();
