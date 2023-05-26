@@ -54,3 +54,4 @@ function game() {
   else if (playerWins < computerWins) console.log("OH NO! You lost the game!");
   else console.log("Draw!!");
 }
+game();
